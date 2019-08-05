@@ -7,4 +7,8 @@ class App < Sinatra::Base
   end 
   
   get('/name') { "My name is " }
+  
+  get('/hometown') { "My hometown is "}
+  
+  get('/favorite-song') { "My favorite song is " }
 end
