@@ -6,5 +6,5 @@ class App < Sinatra::Base
     "Hello, World!"
   end 
   
-  get('/name') {  }
+  get('/name') { "My name is " }
 end
